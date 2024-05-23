@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('sass/_variables.css');
+
+html,body,div,input{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--grey);
+}
+
+a{
+    text-decoration: none;
+  }
+
+  .container{
+    width: 50%;
+  }
+
+  /*utilitis*/
+
+  .width-33{
+
+    width: 33.33%;
+  }
+
+  .mx-auto{
+    margin-left:auto ;
+    margin-right: auto;
+  }
+
+  .my-auto{
+    margin-top:auto ;
+    margin-bottom: auto;
+  }
+  .px-auto{
+    padding-left:auto ;
+    padding-right: auto;
+  }
+
+  .py-auto{
+    padding-top:auto ;
+    padding-bottom: auto;
+  }

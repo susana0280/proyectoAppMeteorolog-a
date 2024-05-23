@@ -1,0 +1,45 @@
+
+<div class="card" *ngIf="wheatherData">
+    <div class="card_img">
+        <img  *ngIf="wheatherData"  src="{{baseUrl}}/{{wheatherData.weather[0].icon}}@2x.png" alt="icono tiempo">
+    </div>
+
+
+    <div *ngIf="wheatherData" class="card_main">
+    
+    
+    <div class="card_city" *ngIf="wheatherData">
+        {{wheatherData?.name}}, {{wheatherData?.sys?.country}}/{{wheatherData?.main?.temp | number:'1.0-0'}}&#8451;
+
+    </div>
+
+    <div class="card_stats">
+        <div class="card_stat">
+            <div class="card_stat-stat">{{wheatherData?.main?.pressure}} <sup>hpa</sup></div>
+            <div class="card_stat-name">Pressure</div>
+        </div>
+
+        <div class="card_stat">
+            <div class="card_stat-stat">{{wheatherData?.main?.humidity}}<sup>%</sup></div>
+            <div class="card_stat-name">Humidity</div>
+        </div>
+
+        <div class="card_stat" no-border>
+            <div class="card_stat-stat">{{wheatherData?.wind?.speed}}<sup>m/s</sup></div>
+            <div class="card_stat-name">Wind</div>
+        </div>
+
+    </div>
+
+   
+</div> 
+    
+    
+    
+  
+
+  
+   
+
+</div>
+

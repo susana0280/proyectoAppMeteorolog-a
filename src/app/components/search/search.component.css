@@ -1,0 +1,17 @@
+
+
+.search{
+    margin-top: 1.5rem;
+    .search_input{
+        border-bottom: 2px solid #ad125b;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        width: 100%;
+       
+    }
+    .search_input:focus{
+        outline: none;
+        border-bottom: 4px solid #9519f1;
+    }
+}
+

@@ -1,0 +1,14 @@
+@import url('../sass/_variables.css');
+
+.nav{
+    padding: 0.75rem 0.5rem;
+    background-color: var(--main-color);
+    margin-bottom: 0.75rem;
+    .brand{
+        color: var(--white);
+        font-weight: 600;
+        line-height: 1.75rem;
+        font-size: 1.5rem;
+
+    }
+}

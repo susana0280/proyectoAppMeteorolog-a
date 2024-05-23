@@ -1,0 +1,18 @@
+.nav{
+  --main-color: #9519f1;
+}
+.brand{
+  --white:#fff;
+}
+.container {
+    --secondary-color:#c8d9f7;
+    --border-radius-size:1rem;
+    --black:#000;
+    width: 75%;
+   
+  }
+
+  body{
+    --secondary-color:#c8d9f7;
+    --grey:#333
+  }
